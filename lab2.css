@@ -1,0 +1,218 @@
+/* -----------------------------------------
+   Global Styles
+------------------------------------------ */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f0ff;
+  color: #2b2342;
+}
+
+h1, h2 {
+  color: #3a1f8f;
+}
+
+section {
+  padding: 50px;
+  max-width: 1000px;
+  margin: 35px auto;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* -----------------------------------------
+   Skip Link
+------------------------------------------ */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: #7143ff;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.skip-link:focus {
+  top: 15px;
+}
+
+/* -----------------------------------------
+   Header + Navigation
+------------------------------------------ */
+header {
+  background: #3a1f8f;
+  color: white;
+  padding: 25px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+header nav a:hover {
+  background: #7143ff;
+}
+
+/* -----------------------------------------
+   Hero Section
+------------------------------------------ */
+#hero {
+  text-align: center;
+  background: linear-gradient(to bottom right, #3a1f8f, #7143ff);
+  color: white;
+  padding: 80px 20px;
+  border-radius: 0 0 20px 20px;
+}
+
+#hero h2 {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+#hero p {
+  font-size: 18px;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* -----------------------------------------
+   About Section
+------------------------------------------ */
+#about img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 14px;
+  width: 240px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+/* -----------------------------------------
+   Projects Section
+------------------------------------------ */
+#projects ul {
+  margin-top: 15px;
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+#projects li {
+  margin-bottom: 12px;
+}
+
+/* -----------------------------------------
+   Skills Table - NEW COLORS + SIZE
+------------------------------------------ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  font-size: 17px;
+}
+
+th {
+  background: #3a1f8f;
+  color: white;
+  padding: 14px;
+  font-size: 18px;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 2px solid #e0d8ff;
+}
+
+tr:nth-child(even) {
+  background: #ece6ff;
+}
+
+/* -----------------------------------------
+   Contact Form - BIGGER BOXES
+------------------------------------------ */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input, textarea {
+  padding: 16px;
+  border: 2px solid #ccbfff;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #ffffff;
+}
+
+textarea {
+  height: 150px;
+}
+
+button {
+  width: 160px;
+  padding: 14px;
+  background: #7143ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #3a1f8f;
+}
+
+/* -----------------------------------------
+   Footer
+------------------------------------------ */
+footer {
+  background: #3a1f8f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+/* -----------------------------------------
+   Back-to-Top Button
+------------------------------------------ */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #7143ff;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.back-to-top:hover {
+  background: #3a1f8f;
+}
